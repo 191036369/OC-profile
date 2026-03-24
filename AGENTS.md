@@ -207,6 +207,45 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## 🧠 自主学习模式
+
+### 核心机制
+
+每天自动分析对话日志，提取关键信息，不断优化专属个人模型。
+
+### 学习任务
+
+| 任务 | 频率 | 内容 |
+|------|------|------|
+| 每日学习 | 21:00 | 总结今日对话，更新 MEMORY.md |
+| 每周学习 | 周一 09:00 | 回顾上周，提炼趋势和优化点 |
+
+### 提取维度
+
+1. **偏好** — 沟通风格、格式习惯、操作偏好
+2. **禁忌** — 红线事项、不希望发生的行为
+3. **常用操作** — 高频任务、操作习惯
+4. **目标计划** — 进行中的项目、长期目标
+5. **趋势变化** — 需求变化、新的关注点
+
+### 文件结构
+
+```
+memory/
+  YYYY-MM-DD.md        # 每日原始记录
+  archive/             # 已归档的日记录
+learning/
+  daily-learn.ps1      # 每日学习脚本
+MEMORY.md              # 长期记忆核心（AI 持续更新）
+```
+
+### 学习原则
+
+- **记录 > 记忆** — 所有重要信息都写入文件
+- **定期整理** — 日记录转化为长期记忆
+- **主动优化** — 发现规律主动更新模型
+- **安全第一** — 个人数据不上传，仅本地处理
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
